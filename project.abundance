@@ -38,16 +38,45 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 600
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 150,
+          "currentEquation": "150"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.3416666666666667,
+      "y": 0.2956730769230769,
+      "uniqueID": "id-12"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.3432291666666667,
+      "y": 0.5168269230769231,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 550
+        },
+        {
+          "name": "y length",
+          "ioValue": 50
         }
       ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-8",
+      "ap2ID": "id-12"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
